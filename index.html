@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>База отдыха Черноморец</title>
+    <link rel="stylesheet" href="styles/main.min.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+<!--header-->
+<header class="header" id="home">
+
+    <!--header__top-->
+    <section class="header__top">
+        <div class="container container__flex container__mobile">
+            <!--nav__wrap-->
+            <div class="nav__wrap">
+                <div class="nav__flex">
+                    <nav class="nav" id="menu">
+                        <button id="nav--btn" class="main-navigation">База отдыха Черноморец</button>
+                        <!--nav__list-->
+                        <ul id="main--nav" class="nav__list">
+                            <li class="nav__item">
+                                <a href="#about" class="nav__item--link">О нас</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#rooms" class="nav__item--link">Размещение</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#location" class="nav__item--link">Как добраться</a>
+                            </li>
+
+                        </ul>
+                        <!--./nav__list-->
+                    </nav>
+                    <!--./nav-->
+                </div>
+            </div>
+            <!--./nav__wrap-->
+
+            <!--header__address-->
+            <address class="header__address">
+                <!--header__address--link-->
+                <div class="header__address--link">
+                    <a href="tel:+380930001272" class="address__link">
+                        <span class="address__link--descr">+38 093 000 12 72</span>
+                    </a>
+                    <a href="tel:+380982772329" class="address__link">
+                        <span class="address__link--descr">+38 098 277 23 29</span>
+                    </a>
+                    <a href="tel:+380504933204" class="address__link">
+                        <span class="address__link--descr">+38 050 493 32 04</span>
+                    </a>
+                    <a href="tel:+375444581647" class="address__link">
+                        <span class="address__link--descr">+375 44 458 16 47</span>
+                    </a>
+                    <a href="mailto:info@chornomo.rest" class="address__link">
+                        <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.176 1.99562e-07H0.823986C0.368906 1.99562e-07 0 0.372791 0 0.832663V12.1673C0 12.6272 0.368906 13 0.823986 13H19.176C19.6311 13 20 12.6272 20 12.1673V0.832663C20 0.372791 19.6311 1.99562e-07 19.176 1.99562e-07ZM0.823986 0.653924H19.176C19.2535 0.654305 19.3216 0.705529 19.3443 0.780349L10 6.67874L0.655738 0.780349C0.678387 0.705529 0.746549 0.654305 0.823986 0.653924ZM0.64711 1.52582L7.36842 5.76761L0.64711 11.1559V1.52582ZM19.3529 12.163C19.3529 12.2617 19.2737 12.3417 19.176 12.3417H0.823986C0.726327 12.3417 0.64711 12.2617 0.64711 12.163V11.9886L7.95082 6.1556L9.82744 7.34138C9.93286 7.40857 10.0671 7.40857 10.1726 7.34138L12.0492 6.1556L19.3529 11.9886V12.163ZM19.3529 11.1559L12.6143 5.78504L19.3529 1.56506V11.1559Z"
+                                  fill="black"/>
+                        </svg>
+                        <span class="address__link--descr">Info@chornomo.rest</span>
+                    </a>
+                </div><!--./header__address--link-->
+            </address>
+            <!--./header__address-->
+
+        </div>
+        <!--./container-->
+    </section>
+    <!--./header__top-->
+</header>
+<!--./header-->
+
+
+<!--hero-->
+<section class="hero" id="hero" style="background: url('img/hero.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;">
+
+    <div class="hero__content container">
+        <h1 class="hero__title--top">База отдыха</h1>
+        <address class="hero__title--bottom">Курортный проспект, 39. Коблево,</address>
+        <address class="hero__title--bottom">Николаевская область</address>
+    </div>
+</section>
+<!--./hero-->
+
+<!--about-->
+<section class="about container" id="about">
+
+    <div class="section__title">
+        <h2 class="section__title--text-main">База отдыха «Черноморец» расположена в сосновом бору курортного поселка
+            Коблево</h2>
+        <h3 class="section__title--text-descr">
+            Именно сочетание соснового и морского воздуха привлекает на базу отдыхающих. Наша база отдыха находится на
+            первой линии от моря. Самая длительная прогулка к морю не займет более 5 минут под тенью сосен, платанов,
+            маслины и акации, так как расстояние не
+            превышает 100 метров.
+        </h3>
+    </div>
+
+</section>
+<!--./about-->
+
+<!--gallery-->
+<div class="hero__gallery">
+    <div class="hero__gallery--track">
+        <figure class="hero__gallery--img" style="background: url('img/gallery1.jpeg');
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: cover;">
+        </figure>
+        <figure class="hero__gallery--img" style="background: url('img/gallery2.jpg');
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: cover;">
+        </figure>
+        <figure class="hero__gallery--img" style="background: url('img/gallery3.jpeg');
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: cover;">
+        </figure>
+        <figure class="hero__gallery--img" style="background: url('img/gallery4.jpeg');
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: cover;">
+        </figure>
+        <figure class="hero__gallery--img" style="background: url('img/gallery5.jpg');
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: cover;">
+        </figure>
+        <figure class="hero__gallery--img" style="background: url('img/gallery6.jpeg');
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: cover;">
+        </figure>
+        <figure class="hero__gallery--img" style="background: url('img/gallery7.jpeg');
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: cover;">
+        </figure>
+    </div>
+
+    <div class="container">
+        <button class="hero__gallery--prev--btn" id="prev">
+            <
+        </button>
+        <button class="hero__gallery--next--btn" id="next">
+            >
+        </button>
+    </div>
+</div>
+<!--./gallery-->
+
+<!--appartments-->
+<section id="appartments container">
+    <!--wedo__list-->
+    <ul class="wedo__list container">
+        <li class="wedo__item">
+                <span class="wedo__item--descr--about" align="justify">На пляже базы отдыха «Черноморец» к вашим услугам прокат водного снаряжения, шезлонгов, зонтиков. Ежедневно вечером на площадке проводится музыкально - развлека- тельная программа. В Коблево расположены 2   современных аквапарка. На всей территории зоны отдыха пгт. Коблево по всему побережью расположены многочисленные кафе, бары, ночные клубы.
+                </span>
+        </li>
+
+        <li class="wedo__item">
+                <span class="wedo__item--descr--about" align="justify">Благодаря удачному расположению курортной зоны Коблево мы предлагаем не только пляжный отдых: организовываются экскурсионные поездки в Одессу, туры в Южную Бессарабию, Николаев с посещением Николаевского зоопарка, а также морские прогулки, в т.ч. на остров Березань, рыбалка в открытом море и на ставке. 
+                </span>
+        </li>
+    </ul>
+    <!--./wedo__list-->
+    <!--workshop-->
+    <div class="workshop container" id="workshop">
+        <div class="section__title">
+            <h2 class="section__title--text-main">На базе отдыха проходят различные мероприятия, семинары</h2>
+        </div>
+        <div class="section__img">
+            <img src="img/workshopYoga.jpg" alt="Йога семинар 2019">
+        </div>
+    </div>
+    <!--./workshop-->
+    <!--rooms-->
+    <div class="rooms container" id="rooms">
+        <div class="section__title">
+            <h2 class="section__title--text-main">Размещение на базе отдыха “Черноморец”</h2>
+            <h3 class="section__title--text-descr">
+                Пансионат “Черноморец” состоит из двух многоэтажных корпусов (№1 и №2) и летних домиков, расположенных в
+                30-100 м от моря.
+            </h3>
+        </div>
+        <article class="rooms__item">
+            <div class="rooms__item--img--wrap">
+                <div class="rooms__item--img">
+                    <img src="img/build1.jpeg" alt="Корпус №2">
+                    <img src="img/build11.jpeg" alt="Корпус №2">
+                </div>
+            </div>
+            <div class="rooms__item--descr--wrap">
+                <h3 class="rooms__item--title">Корпус № 2</h3>
+                <span class="rooms__item--descr">Двухместные номера с лоджией</span>
+                <span class="rooms__item--text">
+                        В каждом номере есть 2 кровати, прикроватная тумбочка, встроенный шкаф, 2 пуфика, туалет, умывальник, душ,холодильник.
+                        На каждом этаже в холле есть телевизор. Корпус №2 находится в 30 м от пляжа.
+                    </span>
+            </div>
+        </article>
+        <article class="rooms__item">
+            <div class="rooms__item--descr--wrap">
+                <h3 class="rooms__item--title">Корпус № 1</h3>
+                <span class="rooms__item--descr">Двух/трехместные номера с лоджией</span>
+                <span class="rooms__item--text">
+                            В каждом номере есть кровати,тумбочки, стулья, стол, шкаф, умывальник, холодильник. Туалет на этаже, душ на улице.
+                            
+                    </span>
+            </div>
+            <div class="rooms__item--img--wrap">
+                <div class="rooms__item--img">
+                    <img src="img/build2.jpeg" alt="Корпус №1">
+                    <img src="img/build22.jpeg" alt="Корпус №1">
+                </div>
+
+            </div>
+        </article>
+        <article class="rooms__item">
+            <div class="rooms__item--img--wrap">
+                <div class="rooms__item--img">
+                    <img src="img/summerbuild1.jpeg" alt="Летние домики">
+                    <img src="img/summerbuild2.jpeg" alt="Летние домики">
+                </div>
+            </div>
+            <div class="rooms__item--descr--wrap">
+                <h3 class="rooms__item--title">Летние домики</h3>
+                <span class="rooms__item--descr">Двух/трехместные домики</span>
+                <span class="rooms__item--text">
+                            В каждом есть кровати,тумбочки, стулья, стол, холодильник. Умывальник, душ и туалет – на улице, недалеко от домика.
+                            Летние домики расположены в 30-100 м от пляжа.
+                    </span>
+            </div>
+        </article>
+        <article class="rooms__item">
+            <div class="rooms__item--descr--wrap">
+                <h3 class="rooms__item--title">Коттеджи</h3>
+                <span class="rooms__item--text">
+                            Коттеджи со всеми удобствами. В каждом коттедже есть кровати, тумбочки, стулья, стол, шкаф,
+                            холодильник; умывальник, душ, туалет, горячая вода круглосуточно (бойлер), кондиционер.
+                                                        
+                    </span>
+            </div>
+            <div class="rooms__item--img--wrap">
+                <div class="rooms__item--img">
+                    <img src="img/appartm1.jpeg" alt="Коттеджи">
+                    <img src="img/appartm2.jpeg" alt="Коттеджи">
+                </div>
+            </div>
+        </article>
+    </div>
+    <!--./rooms-->
+    <!--views-->
+    <div class="views--wrap container">
+        <div class="views__item--img">
+            <img src="img/location1.jpeg" alt="Территория базы">
+            <img src="img/location2.jpeg" alt="Территория базы">
+            <img src="img/location3.jpeg" alt="Территория базы">
+        </div>
+    </div>
+    <!--./views-->
+</section>
+<!--./appartments-->
+
+<ul class="wedo__list container">
+    <li class="wedo__item">
+            <span class="wedo__item--descr--about" align="justify">
+                    Недалеко от пансионата находится множество магазинов, где всегда в продаже овощи и фрукты,
+                    морепродукты и молочные продукты, прохладительные напитки, а также фирменные магазины
+                    украинских вин.
+            </span>
+    </li>
+
+    <li class="wedo__item">
+            <span class="wedo__item--descr--about" align="justify">
+                    В нашем пансионате предлагается качественное трехразовое питание. У нас выпекается хлеб и
+                    сдоба.
+                    Предоставляются услуги парковки и скоростного интернета.
+            </span>
+    </li>
+</ul>
+<!--price-->
+<section id="price" class="price container">
+    <div class="section__title">
+        <h2 class="section__title--text-main">Цены на сезон 2019</h2>
+    </div>
+    <div class="section__tabs">
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">до 14.06</a></li>
+                <li><a href="#tabs-2">14.06 - 27.06</a></li>
+                <li><a href="#tabs-3">27.06 - 28.08</a></li>
+                <li><a href="#tabs-4">28.08 - 30.09</a></li>
+            </ul>
+            <div id="tabs-1">
+                <div class="table__wrap">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Коттеджи</th>
+                            <th scope="col">Корпус № 2</th>
+                            <th scope="col">Корпус № 1</th>
+                            <th scope="col">Домик с улучшенными условиями</th>
+                            <th scope="col">Домик</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>4-х, 5-ти местные</td>
+                            <td>2-х местные</td>
+                            <td>2-х, 3-х местные</td>
+                            <td>3-х, 4-х местные</td>
+                            <td>2-х, 3-х, 4-х местные</td>
+                        </tr>
+                        <tr>
+                            <td>Душ, туалет, кондиционер</td>
+                            <td>Душ, туалет в номере<br/><span class="table-tall">*</span>кондиционер в 10 номерах</td>
+                            <td>умывальник в номере, <br />
+                                туалет на этаже,<br />
+                                душ возле корпуса
+                            </td>
+                            <td>умывальник в номере,<br />
+                                душ и туалет на территории
+                            </td>
+                            <td>все удобства на<br />
+                                территории
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>200 грн</td>
+                            <td>200 грн / 220 грн<span class="table-tall">*</span><br/>
+                                <span class="table-tall">*</span> с кондиционером
+                            </td>
+                            <td>120 грн</td>
+                            <td>150 грн</td>
+                            <td>150 грн</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="tabs-2">
+                <div class="table__wrap">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Коттеджи</th>
+                            <th scope="col">Корпус № 2</th>
+                            <th scope="col">Корпус № 1</th>
+                            <th scope="col">Домик с улучшенными условиями</th>
+                            <th scope="col">Домик</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>4-х, 5-ти местные</td>
+                            <td>2-х местные</td>
+                            <td>2-х, 3-х местные</td>
+                            <td>3-х, 4-х местные</td>
+                            <td>2-х, 3-х, 4-х местные</td>
+                        </tr>
+                        <tr>
+                            <td>Душ, туалет, кондиционер</td>
+                            <td>Душ, туалет в номере<br/><span class="table-tall">*</span>кондиционер в 10 номерах</td>
+                            <td>умывальник в номере, <br />
+                                туалет на этаже,<br />
+                                душ возле корпуса
+                            </td>
+                            <td>умывальник в номере,<br />
+                                душ и туалет на территории
+                            </td>
+                            <td>все удобства на<br />
+                                территории
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>240 грн</td>
+                            <td>220 грн / 240 грн<span class="table-tall">*</span><br/>
+                                <span class="table-tall">*</span> с кондиционером
+                            </td>
+                            <td>140 грн</td>
+                            <td>160 грн</td>
+                            <td>150 грн</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="tabs-3">
+                <div class="table__wrap">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Коттеджи</th>
+                            <th scope="col">Корпус № 2</th>
+                            <th scope="col">Корпус № 1</th>
+                            <th scope="col">Домик с улучшенными условиями</th>
+                            <th scope="col">Домик</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>4-х, 5-ти местные</td>
+                            <td>2-х местные</td>
+                            <td>2-х, 3-х местные</td>
+                            <td>3-х, 4-х местные</td>
+                            <td>2-х, 3-х, 4-х местные</td>
+                        </tr>
+                        <tr>
+                            <td>Душ, туалет, кондиционер</td>
+                            <td>Душ, туалет в номере<br/><span class="table-tall">*</span>кондиционер в 10 номерах</td>
+                            <td>умывальник в номере, <br />
+                                туалет на этаже,<br />
+                                душ возле корпуса
+                            </td>
+                            <td>умывальник в номере,<br />
+                                душ и туалет на территории
+                            </td>
+                            <td>все удобства на<br />
+                                территории
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>320 грн</td>
+                            <td>300 грн / 320 грн<span class="table-tall">*</span><br/>
+                                <span class="table-tall">*</span> с кондиционером
+                            </td>
+                            <td>160 грн</td>
+                            <td>180 грн</td>
+                            <td>150 грн</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="tabs-4">
+                <div class="table__wrap">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Коттеджи</th>
+                            <th scope="col">Корпус № 2</th>
+                            <th scope="col">Корпус № 1</th>
+                            <th scope="col">Домик с улучшенными условиями</th>
+                            <th scope="col">Домик</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>4-х, 5-ти местные</td>
+                            <td>2-х местные</td>
+                            <td>2-х, 3-х местные</td>
+                            <td>3-х, 4-х местные</td>
+                            <td>2-х, 3-х, 4-х местные</td>
+                        </tr>
+                        <tr>
+                            <td>Душ, туалет, кондиционер</td>
+                            <td>Душ, туалет в номере<br/><span class="table-tall">*</span>кондиционер в 10 номерах</td>
+                            <td>умывальник в номере, <br />
+                                туалет на этаже,<br />
+                                душ возле корпуса
+                            </td>
+                            <td>умывальник в номере,<br />
+                                душ и туалет на территории
+                            </td>
+                            <td>все удобства на<br />
+                                территории
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>200 грн</td>
+                            <td>200 грн / 320 грн<span class="table-tall">*</span><br/>
+                                <span class="table-tall">*</span> с кондиционером
+                            </td>
+                            <td>120 грн</td>
+                            <td>150 грн</td>
+                            <td>150 грн</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="price__info">
+        <p><strong>Стоимость проживания за 1 человека в сутки, без питания.</strong></p>
+        <p><strong>Детям до 14 лет</strong> - оплата 90% от стоимости проживания в сутки.</p>
+        <h4>Дополнительные услуги: </h4>
+        <ol>
+            <li>Въезд авто на территорию пансионата - 30 грн / сутки</li>
+            <li>Разовый въезд авто на территорию пансионата - 100 грн / сутки</li>
+            <li>Душ 15 грн / сутки</li>
+            <li>Пользование собственными электроприборамив домике - 37,50 грн / сутки</li>
+        </ol>
+        <p><strong>Цены в течении сезона могут изменяться</strong> ( справки  по тел. <strong>+38 093 000 12 72</strong> )</p>
+        <h4>Предлагаем качественное 1, 2, 3-х разовое питание на территории пансионата.</h4>
+
+
+    </div>
+</section>
+<!--./price-->
+<section id="location" class="location container">
+    <ul class="wedo__list container">
+        <li class="wedo__item main__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2739.961315561318!2d31.187227115818978!3d46.62752636308637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c66b1e12f43745%3A0x2859b41d8041c8ef!2z0L_RgNC-0YHQv9C10LrRgiDQmtGD0YDQvtGA0YLQvdC40LksIDM5LCDQmtC-0LHQu9C10LLQtSwg0JzQuNC60L7Qu9Cw0ZfQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNGX0L3QsCwgNTc0NTM!5e0!3m2!1suk!2s!4v1531835505604"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </li>
+
+        <li class="wedo__item">
+                <span class="wedo__item--descr--about" align="justify">
+                    <h2 class="wedo__item--descr--title">Как добраться?</h2>
+                    <p>Из г.Николаев существует регулярное автобусное сообщение  "Николаевский Автовокзал – Автовокзал Коблево". РЕКОМЕНДУЕМ воспользоваться маршрутными такси "Николаевский Автовокзал – Автовокзал Коблево - Базы", доставляющими  отдыхающих прямо на остановку “Пансионат «ЧЕРНОМОРЕЦ”. 
+                    </p>
+                    <p>
+                    Из г. Одесса регулярное автобусное сообщение  "Одесский ж.-д. вокзал – Автовокзал Коблево".  РЕКОМЕНДУЕМ воспользоваться маршрутными такси "Одесский ж.-д. вокзал – Автовокзал Коблево - Базы", доставляющими  отдыхающих прямо на остановку “Пансионат «ЧЕРНОМОРЕЦ”.
+                    </p>
+                    <p>
+                    Туристам с личным транспортом необходимо доезжать до г. Одесса или г. Николаев, от этих городов выехать на трассу М-14, на которой находится пгт. Коблево. Въехав в Коблево - свернуть  в курортную зону.
+                    </p>
+                </span>
+        </li>
+    </ul>
+</section>
+
+<!--footer-->
+<footer class="footer" style="background: url('img/footer.jpeg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;">
+    <h2 class="footer__title container">Мы вас ждем!!!</h2>
+    <div class="footer__content">
+        <address class="container footer__wrap">
+            <!--footer--location-->
+            <div class="footer--location footer__section">
+                <h3>База отдыха Черноморец</h3>
+                <p>Курортный проспект, 39. Коблево, Николаевская область</p>
+                <a href="mailto:info@chornomo.rest">
+                    <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.176 1.99562e-07H0.823986C0.368906 1.99562e-07 0 0.372791 0 0.832663V12.1673C0 12.6272 0.368906 13 0.823986 13H19.176C19.6311 13 20 12.6272 20 12.1673V0.832663C20 0.372791 19.6311 1.99562e-07 19.176 1.99562e-07ZM0.823986 0.653924H19.176C19.2535 0.654305 19.3216 0.705529 19.3443 0.780349L10 6.67874L0.655738 0.780349C0.678387 0.705529 0.746549 0.654305 0.823986 0.653924ZM0.64711 1.52582L7.36842 5.76761L0.64711 11.1559V1.52582ZM19.3529 12.163C19.3529 12.2617 19.2737 12.3417 19.176 12.3417H0.823986C0.726327 12.3417 0.64711 12.2617 0.64711 12.163V11.9886L7.95082 6.1556L9.82744 7.34138C9.93286 7.40857 10.0671 7.40857 10.1726 7.34138L12.0492 6.1556L19.3529 11.9886V12.163ZM19.3529 11.1559L12.6143 5.78504L19.3529 1.56506V11.1559Z"
+                              transform="translate(0 0.148926)" fill="white"/>
+                    </svg>
+                    <span>info@chornomo.rest</span>
+                </a>
+            </div>
+            <!--./footer--location-->
+
+            <!--footer--phones-->
+            <div class="footer--phones footer__section">
+                <a href="tel:+380930001272" class="address__link">+38 093 000 12 72</a>
+                <a href="tel:+380976394196" class="address__link">+38 097 639 41 96</a>
+                <a href="tel:+380505556421" class="address__link">+38 050 555 64 21</a>
+            </div>
+            <!--./footer--phones-->
+
+            <!--footer--registr-->
+            <div class="footer--registr footer__section">
+                <h3>Домик / коттеджи у моря</h3>
+                <a href="tel:+380632136164" class="address__link">+38 063 213 61 64</a>
+                <a href="tel:+380633204047" class="address__link">+38 063 320 40 47</a>
+            </div>
+            <!--./footer--registr-->
+
+            <!--footer__social-->
+            <div class="footer__social footer__section">
+                <p>Соц.сети</p>
+                <div class="social__wrap">
+                    <a href="https://www.facebook.com/pg/chornomo.rest/services/?ref=page_internal%D0%B1"
+                       target="_blank" class="footer__social--link">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.25 0H3.75C1.68187 0 0 1.68187 0 3.75V26.25C0 28.3181 1.68187 30 3.75 30H15V19.6875H11.25V15H15V11.25C15 8.14313 17.5181 5.625 20.625 5.625H24.375V10.3125H22.5C21.465 10.3125 20.625 10.215 20.625 11.25V15H25.3125L23.4375 19.6875H20.625V30H26.25C28.3181 30 30 28.3181 30 26.25V3.75C30 1.68187 28.3181 0 26.25 0Z"
+                                  fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/chernomorets_koblevo/" target="_blank"
+                       class="footer__social--link">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.625 0H9.375C4.19813 0 0 4.19813 0 9.375V20.625C0 25.8019 4.19813 30 9.375 30H20.625C25.8019 30 30 25.8019 30 20.625V9.375C30 4.19813 25.8019 0 20.625 0ZM27.1875 20.625C27.1875 24.2437 24.2437 27.1875 20.625 27.1875H9.375C5.75625 27.1875 2.8125 24.2437 2.8125 20.625V9.375C2.8125 5.75625 5.75625 2.8125 9.375 2.8125H20.625C24.2437 2.8125 27.1875 5.75625 27.1875 9.375V20.625Z"
+                                  fill="white"/>
+                            <path d="M7.5 0C3.35812 0 0 3.35812 0 7.5C0 11.6419 3.35812 15 7.5 15C11.6419 15 15 11.6419 15 7.5C15 3.35812 11.6419 0 7.5 0ZM7.5 12.1875C4.91625 12.1875 2.8125 10.0837 2.8125 7.5C2.8125 4.91438 4.91625 2.8125 7.5 2.8125C10.0837 2.8125 12.1875 4.91438 12.1875 7.5C12.1875 10.0837 10.0837 12.1875 7.5 12.1875Z"
+                                  transform="translate(7.5 7.5)" fill="white"/>
+                            <path d="M0.999375 1.99875C1.55131 1.99875 1.99875 1.55131 1.99875 0.999375C1.99875 0.447436 1.55131 0 0.999375 0C0.447436 0 0 0.447436 0 0.999375C0 1.55131 0.447436 1.99875 0.999375 1.99875Z"
+                                  transform="translate(22.063 5.93799)" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+            <!--./footer__social-->
+
+        </address>
+    </div>
+
+</footer>
+<!--./footer-->
+
+<!--back-to-top-->
+<a href="#" class="back-to-top">
+    >
+</a>
+<!--./back-to-top-->
+
+<div class="overlay"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/bundle.js"></script>
+
+</body>
+
+</html>
