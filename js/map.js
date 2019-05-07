@@ -43,12 +43,30 @@ function initializeWhite() {
             anchor: new google.maps.Point(14, 14),
             size: new google.maps.Size(locations[i][3], locations[i][4])
         };
+        var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h3 id="firstHeading" class="firstHeading">Черноморец</h3>'+
+            '<div id="bodyContent">'+
+            '<p>проспект Курортний, 39<br />Коблево, Николаевская область</p>'+
+            '<p><a href="https://goo.gl/maps/vZuVwBET27MoGBQA6" target="_blank">'+
+            'Показать на Google Картах</a></p>'+
+            '</div>'+
+            '</div>';
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
         var marker = new google.maps.Marker({
-            position: latLng,
-            icon: image
+            position: { lat: 46.6222, lng: 31.2112 },
+            title: 'Черноморец'
+            // icon: image
         });
         markers.push(marker);
         marker.setMap(map);
+
+        marker.addListener('click', function() {
+            infowindow.open(map, marker);
+        });
     }
 }
 google.maps.event.addDomListener(window, 'load', initialize);
